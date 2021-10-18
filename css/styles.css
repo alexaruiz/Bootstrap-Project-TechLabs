@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, h1 h2, h3, p, a {
+    font-family: "Raleway";
+}
+
+/* navbar */
+.navbar {
+    background: #798777;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #F8EDE3;
+}
+
+.leaves {
+    max-width: 100%;
+    height: 5em;
+}
+
+/* header */
+.header {
+    background-image: url('../images/header2_img.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.40);
+   }
+
+   .description{
+    position: absolute;
+    top: 30%;
+    margin: 15em 0 0 -20em;
+    
+}
+
+.description h1{
+ color: #798777;
+}
+
+/* about me */
+#about {
+    margin: 8em 0;
+}
+
+.about-img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.desc h3 {
+    color: #798777;
+    margin-top: 4em;
+}
+
+.desc p {
+    line-height: 2;
+    color: #888;
+    margin-top: 5em;
+}
+
+/* portfolio */
+#portfolio{
+    margin: 8em 0;
+    position: relative; 
+   }
+
+h2 { /* makes the "blog" and "contact" h2 same color as well */
+    color: #798777;
+    margin: 2em; 
+   }
+
+/* blog */
+#blog{
+    margin: 8em 0;
+    position: relative; 
+   }
+
+.card{
+    box-shadow: 0 0 20px #ccc;
+   }
+
+.card img{
+    width: 100%;
+    height: 12em;
+   }
+
+.card-title{
+    color:#798777;
+   }
+
+.card-body{
+    padding: 1em;
+   }
+
+.card-link {
+       color: #798777;
+   }
+
+   /* contact */
+   .contact-form{
+    margin: 8em 0;
+    position: relative;  
+   }
+   
+   .contact-form h2{
+    padding:2em 1px;
+   }
+
+   .contact-form .right{
+    max-width: 600px;
+   }
+
+   .contact-form .right .btn-secondary{
+    background:  #798777;
+    color: #fff;
+    border:0;
+   }
+
+   .contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+   }
